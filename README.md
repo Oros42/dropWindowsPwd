@@ -17,3 +17,10 @@ chmod +x dwp.sh
 ## Undo password's reset
 
 Go in ```/Windows/System32/config/``` and move ```SAM.back_xxxxxxxxxx``` to ```SAM```
+
+## For noobs
+  
+Download : 
+- Virtualbox : https://www.virtualbox.org/
+- Windows : https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/  
+- Kali : https://www.kali.org/downloads/  
