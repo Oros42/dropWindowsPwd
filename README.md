@@ -11,7 +11,7 @@ chmod +x dwp.sh
 
 ## Run
 ```
-./dwp.sh
+sudo ./dwp.sh
 ```
 
 ## Undo password's reset
