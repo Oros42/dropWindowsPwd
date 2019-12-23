@@ -13,3 +13,7 @@ chmod +x dwp.sh
 ```
 ./dwp.sh
 ```
+
+## Undo password's reset
+
+Go in ```/Windows/System32/config/``` and move ```SAM.back_xxxxxxxxxx``` to ```SAM```
