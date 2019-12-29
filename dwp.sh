@@ -12,7 +12,7 @@ tmpMount="/media/tmpMount"
 mkdir -p $tmpMount
 for p in ls /dev/disk/by-partuuid/*; do
 	# for all partitions
-	if [ "$(file -sL $p |grep NTFS)" != "" ]; then
+	if [ "$(blkid $p |grep 'TYPE=\"ntfs\"')" != "" ]; then
 		# Only NTFS patitions
 		ntfsfix $p
 		echo "mount -t ntfs-3g $p $tmpMount"
